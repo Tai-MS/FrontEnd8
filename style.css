@@ -1,0 +1,239 @@
+/*GENERAL*/
+body{
+    width: 90rem;
+    border-right: 1px solid black;
+    margin-top: 0rem;
+    margin-left: 0rem;
+    margin-bottom: 0rem;
+}
+
+header, h1, h2, h4, a, button{
+    font-family: 'Raleway', sans-serif;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    color: hsl(243, 87%, 12%);
+    width: 40rem;
+    padding-left: 4rem;
+    font-size: 1.2rem;
+}
+
+h1{
+    color: hsl(243, 87%, 12%);
+    font-weight: 700;
+    font-size: 2.5rem;
+    width: 42rem;
+    padding-left: 4rem;
+}
+
+button{
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    border: 0px;
+    border-radius: 0.2rem;
+    margin-left: 1rem;
+    width: 11rem;
+    height: 2.7rem;
+} 
+
+button:hover{
+    cursor: pointer;
+    background-color: hsl(224, 93%, 70%);
+}
+
+input{
+    width: 20rem;
+    height: 2.5rem;
+    margin-left: 4rem;
+}
+
+.ilustration{
+    width: 40rem;
+    float: right;
+    margin-top: -25rem;
+}
+
+/************/
+/************/
+/***HEADER***/
+/************/
+header{
+    padding-top: 3rem;
+    padding-left: 4rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50rem;
+}
+
+#menu{
+    padding-top: 1rem;
+}
+
+#menu a{
+    color: hsl(243, 87%, 12%);
+    text-decoration: none;
+    font-weight: 400;
+    margin-right: 3rem;
+}
+
+/**************/
+/***SECTION***/
+/***FIRST***/
+/***********/
+#first{
+    padding-top: 15rem;
+}
+
+/************/
+/***SECOND***/
+/************/
+#second{
+    padding-top: 15rem;
+}
+
+#curve{
+    padding-left: -10rem;
+}
+
+#inner-second{
+    background-color: hsl(240, 75%, 98%);
+    height: 50rem;
+    padding-left: 4rem;
+    margin-top: -2.5rem;
+    padding-top: 5rem;
+}
+
+#inner-second a{
+    color: hsl(170, 45%, 43%);
+    padding-left: 4rem;
+}
+
+#inner-second .ilustration{
+    margin-top: -35rem;
+}
+
+#second p{
+    color: hsl(243, 87%, 12%);
+}
+
+#ceo{
+    background-color: white;
+    width: 30rem;
+    height: 18rem;
+    margin-left: 4rem;
+    margin-top: 4rem;
+    border-radius: 0.8rem;
+}
+
+#quotes{
+    width: 1.4rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+#ceo p{
+    width: 25rem;
+    margin-left: -2rem;
+    color: hsl(243, 87%, 12%);
+}
+
+#ceo img:not(#quotes){
+    border-radius: 50%;
+    width: 4rem;
+    margin-left: 2rem;
+}
+
+h4{
+    margin-left: 8rem;
+    margin-top: -3.5rem;
+    font-size: 1rem;
+    color: hsl(243, 87%, 12%);
+}
+
+#info-ceo{
+    font-size: 0.9rem;
+    padding-left: 10rem;
+    margin-top: -1rem;
+}
+/***********/
+/***THIRD***/
+/***********/
+#third{
+    background-color: hsl(238, 22%, 44%);
+    margin-top: -1.1rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    height: 15rem;
+}
+
+#third h2, p{
+    color: white;
+}
+
+#third h2{
+    margin-left: 4rem;
+    font-size: 2.5rem;
+}
+
+#third p{
+    font-size: 1rem;
+    width: 32rem;
+}
+
+#correo{
+    float: right;
+    margin-top: -10rem;
+    margin-right: 10rem;
+    width: 25rem;
+}
+
+#enviar{
+    float: right;
+    margin-top: -6rem;
+    margin-right: 24.5rem;
+}
+/************/
+/***FOOTER***/
+/************/
+footer{
+    background-color: hsl(243, 87%, 12%);
+    padding-top: 6rem;
+    height: 20rem;
+}
+
+#logo{
+    margin-left: 4rem;
+}
+
+p img{
+    margin-right: 1rem;
+}
+
+#links{
+    display: grid;
+    grid-template-columns: 10rem 10rem;
+    padding-left: 35rem;
+    margin-top: -6rem;
+}
+
+#links a{
+    color: white;
+    padding-bottom: 1.5rem;
+    text-decoration: none;
+}
+
+#links a:hover{
+    color: hsl(238, 22%, 44%);
+}
+
+#media{
+    float: right;
+    margin-right: 20rem;
+    margin-top: -11rem;
+}
+
+#media a{
+    margin-right: 1.5rem;
+}
